@@ -1,0 +1,36 @@
+{
+  "name": "gestio",
+  "version": "0.1.0",
+  "description": "Declarative DOM-Based Gesture Responder System",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register",
+    "test:watch": "mocha --compilers js:babel-core/register --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lelandrichardson/gestio.git"
+  },
+  "keywords": [
+    "gesture",
+    "DOM",
+    "animation",
+    "ui"
+  ],
+  "author": "Leland Richardson <leland.m.richardson@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lelandrichardson/gestio/issues"
+  },
+  "homepage": "https://github.com/lelandrichardson/gestio#readme",
+  "dependencies": {
+    "invariant": "^2.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-core": "^6.9.1",
+    "chai": "^3.5.0",
+    "karma": "^0.13.22",
+    "mocha": "^2.5.3"
+  }
+}
